@@ -1,0 +1,191 @@
+{
+  "common": {
+    "appName": "QR Code Generator",
+    "appDescription": "Ücretsiz, hızlı ve özelleştirilebilir QR kod üreticisi"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "create": "Oluştur"
+  },
+  "hero": {
+    "badge": "Ücretsiz & Açık Kaynak",
+    "title": "QR Kodunuzu",
+    "titleHighlight": "Oluşturun",
+    "description": "8 farklı tip, tam özelleştirme, logo desteği.",
+    "ctaStart": "Hemen Başla",
+    "ctaHow": "Nasıl Çalışır?"
+  },
+  "steps": {
+    "title": "4 adımda QR kodunuz hazır",
+    "subtitle": "Süreç",
+    "step1": {
+      "num": "01",
+      "title": "Tip Seçin",
+      "desc": "URL, WiFi, vCard veya diğer 5 tipten birini seçin."
+    },
+    "step2": {
+      "num": "02",
+      "title": "Bilgileri Girin",
+      "desc": "Forma gerekli bilgileri girin, QR anında oluşur."
+    },
+    "step3": {
+      "num": "03",
+      "title": "Özelleştirin",
+      "desc": "Renk, logo ve stil seçenekleriyle kişiselleştirin."
+    },
+    "step4": {
+      "num": "04",
+      "title": "İndirin",
+      "desc": "SVG veya PNG olarak indirin, paylaşın, yazdırın."
+    }
+  },
+  "types": {
+    "title": "Ne oluşturmak istiyorsunuz?",
+    "subtitle": "QR Tipleri",
+    "description": "İhtiyacınıza uygun tipi seçin. Her tip için özel form ve doğrulama mevcuttur.",
+    "url": { "label": "URL", "desc": "Web sitesi veya herhangi bir link" },
+    "wifi": { "label": "WiFi", "desc": "Ağ adı ve şifre paylaşımı" },
+    "vcard": { "label": "vCard", "desc": "İsim, telefon, e-posta bilgileri" },
+    "email": { "label": "E-posta", "desc": "Hazır e-posta taslağı" },
+    "phone": { "label": "Telefon", "desc": "Tek dokunuşla arama" },
+    "sms": { "label": "SMS", "desc": "Hazır mesaj taslağı" },
+    "location": { "label": "Konum", "desc": "Harita için GPS koordinatları" },
+    "appstore": { "label": "App Store", "desc": "iOS & Android uygulama linkleri" }
+  },
+  "history": {
+    "title": "Son Oluşturulanlar",
+    "subtitle": "Üzerine tıklayarak düzenlemeye devam edin",
+    "clear": "Temizle"
+  },
+  "create": {
+    "steps": {
+      "info": "Bilgiler",
+      "style": "Stil",
+      "output": "Çıktı"
+    },
+    "back": "Geri",
+    "next": "İleri",
+    "continue": "Devam Et",
+    "skip": "Atla",
+    "infoTitle": "Bilgileri Girin",
+    "infoDesc": "{type} için gerekli bilgileri doldurun.",
+    "styleTitle": "Stil Seçin",
+    "styleDesc": "İsteğe bağlı — varsayılan ile devam edebilirsiniz.",
+    "advancedSettings": "Gelişmiş Ayarlar",
+    "outputTitle": "QR Kodunuz Hazır",
+    "outputDesc": "İndirin, kopyalayın veya paylaşın.",
+    "saveHistory": "Geçmişe kaydet",
+    "savedHistory": "Geçmişe kaydedildi",
+    "reEdit": "Yeniden düzenle",
+    "previewHint": "Bilgileri girdikten sonra önizleme görünür",
+    "templates": "Hazır Şablonlar"
+  },
+  "controls": {
+    "size": "Boyut",
+    "errorCorrection": "Hata Düzeltme",
+    "dotStyle": "Nokta Stili",
+    "cornerStyle": "Köşe Stili",
+    "qrColor": "QR Rengi",
+    "background": "Arka Plan",
+    "backgroundColor": "Arka Plan Rengi",
+    "frameText": "Çerçeve Yazısı",
+    "frameTextPlaceholder": "Beni Tara",
+    "gradientEnabled": "Gradient Aktif",
+    "gradientStart": "Gradient Başlangıç",
+    "gradientEnd": "Gradient Bitiş",
+    "gradientDirection": "Gradient Yönü",
+    "backgroundPattern": "Arka Plan Deseni",
+    "transparent": "Transparan",
+    "logo": "Logo",
+    "color": "Renk",
+    "remove": "Kaldır",
+    "padding": "Dolgu",
+    "background2": "Arka Plan",
+    "rounding": "Yuvarlatma",
+    "circle": "Daire",
+    "square": "Kare"
+  },
+  "actions": {
+    "downloadPng": "PNG",
+    "downloadSvg": "SVG",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "print": "Yazdır",
+    "share": "Paylaş"
+  },
+  "footer": {
+    "description": "Ücretsiz ve açık kaynaklı QR kod üreticisi.",
+    "instantGeneration": "Anında üretim",
+    "downloadFormats": "SVG & PNG indirme",
+    "qrTypes": "QR Tipleri",
+    "github": "GitHub"
+  },
+  "notFound": {
+    "title": "Aradığınız sayfa bulunamadı.",
+    "home": "Ana Sayfaya Dön",
+    "createQr": "QR Kod Oluştur",
+    "quickStart": "veya hızlıca başlayın"
+  },
+  "forms": {
+    "phone": {
+      "label": "Telefon Numarası",
+      "placeholder": "+90 555 123 4567"
+    },
+    "location": {
+      "latitude": "Enlem",
+      "longitude": "Boylam",
+      "latitudePlaceholder": "41.0082",
+      "longitudePlaceholder": "28.9784"
+    },
+    "appstore": {
+      "iosLabel": "iOS App Store Linki",
+      "iosPlaceholder": "https://apps.apple.com/app/id123456789",
+      "androidLabel": "Android Play Store Linki",
+      "androidPlaceholder": "https://play.google.com/store/apps/details?id=com.example",
+      "hint": "En az bir platform linki gereklidir. Her ikisi de girilirse iOS linki kullanılır."
+    }
+  },
+  "pwa": {
+    "installTitle": "Ana Ekrana Ekle",
+    "installDesc": "Hızlı erişim için uygulama olarak yükle",
+    "installButton": "Yükle",
+    "iosInstructions": "Safari'de paylaş butonuna dokunun:",
+    "iosStep1": "Aşağıdaki paylaş ikonuna dokunun",
+    "iosStep2": "'Ana Ekrana Ekle' seçeneğini seçin",
+    "desktopAppTitle": "Uygulama Olarak Aç",
+    "desktopAppDesc": "Daha iyi deneyim için masaüstü uygulaması olarak yükleyin",
+    "desktopAppInstructions": "Chrome'da uygulama olarak yüklemek için:",
+    "desktopAppStep1": "Sağ üstteki üç nokta menüsüne tıklayın",
+    "desktopAppStep2": "'QR Generator'u yükle' seçeneğini seçin",
+    "desktopAppStep3": "'Yükle' butonuna tıklayın",
+    "desktopAppShortcut": "kısayolu"
+  },
+  "batch": {
+    "title": "Toplu QR Üretim",
+    "subtitle": "(her satıra bir URL)",
+    "placeholder": "https://example.com\nhttps://google.com\nhttps://github.com",
+    "generate": "Tümünü Oluştur",
+    "generating": "Oluşturuluyor...",
+    "count": "{valid}/{total} QR kod oluşturuldu",
+    "downloadZip": "ZIP İndir",
+    "download": "İndir"
+  },
+  "validation": {
+    "urlEmpty": "URL boş olamaz.",
+    "urlInvalid": "Geçerli bir URL girin. (örnek: example.com)",
+    "ssidEmpty": "Ağ adı (SSID) boş olamaz.",
+    "nameRequired": "Ad veya soyad gereklidir.",
+    "emailInvalid": "Geçerli bir e-posta adresi girin.",
+    "phoneInvalid": "Geçerli bir telefon numarası girin.",
+    "emailEmpty": "Alıcı e-posta adresi boş olamaz.",
+    "phoneEmpty": "Telefon numarası boş olamaz.",
+    "coordsEmpty": "Enlem ve boylam boş olamaz.",
+    "latInvalid": "Enlem -90 ile 90 arasında olmalıdır.",
+    "lngInvalid": "Boylam -180 ile 180 arasında olmalıdır.",
+    "platformRequired": "En az bir platform linki gereklidir.",
+    "iosHttps": "iOS linki https:// ile başlamalıdır.",
+    "androidHttps": "Android linki https:// ile başlamalıdır.",
+    "textEmpty": "Metin boş olamaz.",
+    "invalidType": "Geçersiz QR tipi."
+  }
+}

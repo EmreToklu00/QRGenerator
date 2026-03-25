@@ -1,0 +1,226 @@
+{
+  "common": {
+    "appName": "QR Code Generator",
+    "appDescription": "Free, fast and customizable QR code generator"
+  },
+  "nav": {
+    "home": "Home",
+    "create": "Create"
+  },
+  "hero": {
+    "badge": "Free & Open Source",
+    "title": "Create Your",
+    "titleHighlight": "QR Code",
+    "description": "8 different types, full customization, logo support.",
+    "ctaStart": "Get Started",
+    "ctaHow": "How It Works?"
+  },
+  "steps": {
+    "title": "Your QR code ready in 4 steps",
+    "subtitle": "Process",
+    "step1": {
+      "num": "01",
+      "title": "Choose Type",
+      "desc": "Select from URL, WiFi, vCard or 5 other types."
+    },
+    "step2": {
+      "num": "02",
+      "title": "Enter Info",
+      "desc": "Fill in the required information, QR is generated instantly."
+    },
+    "step3": {
+      "num": "03",
+      "title": "Customize",
+      "desc": "Personalize with color, logo and style options."
+    },
+    "step4": { "num": "04", "title": "Download", "desc": "Download as SVG or PNG, share, print." }
+  },
+  "types": {
+    "title": "What do you want to create?",
+    "subtitle": "QR Types",
+    "description": "Choose the type that suits your needs. Special form and validation for each type.",
+    "url": { "label": "URL", "desc": "Website or any link" },
+    "wifi": { "label": "WiFi", "desc": "Network name and password sharing" },
+    "vcard": { "label": "vCard", "desc": "Name, phone, email information" },
+    "email": { "label": "Email", "desc": "Ready email draft" },
+    "phone": { "label": "Phone", "desc": "One-touch calling" },
+    "sms": { "label": "SMS", "desc": "Ready message draft" },
+    "location": { "label": "Location", "desc": "GPS coordinates for maps" },
+    "appstore": { "label": "App Store", "desc": "iOS & Android app links" }
+  },
+  "history": {
+    "title": "Recently Created",
+    "subtitle": "Click to continue editing",
+    "clear": "Clear"
+  },
+  "create": {
+    "steps": {
+      "info": "Info",
+      "style": "Style",
+      "output": "Output"
+    },
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "skip": "Skip",
+    "infoTitle": "Enter Information",
+    "infoDesc": "Fill in the required information for {type}.",
+    "styleTitle": "Choose Style",
+    "styleDesc": "Optional — you can continue with default.",
+    "advancedSettings": "Advanced Settings",
+    "outputTitle": "Your QR Code is Ready",
+    "outputDesc": "Download, copy or share.",
+    "saveHistory": "Save to history",
+    "savedHistory": "Saved to history",
+    "reEdit": "Re-edit",
+    "previewHint": "Preview appears after entering information",
+    "templates": "Ready Templates"
+  },
+  "controls": {
+    "size": "Size",
+    "errorCorrection": "Error Correction",
+    "dotStyle": "Dot Style",
+    "cornerStyle": "Corner Style",
+    "qrColor": "QR Color",
+    "background": "Background",
+    "backgroundColor": "Background Color",
+    "frameText": "Frame Text",
+    "frameTextPlaceholder": "Scan Me",
+    "gradientEnabled": "Gradient Enabled",
+    "gradientStart": "Gradient Start",
+    "gradientEnd": "Gradient End",
+    "gradientDirection": "Gradient Direction",
+    "backgroundPattern": "Background Pattern",
+    "transparent": "Transparent",
+    "logo": "Logo",
+    "color": "Color",
+    "remove": "Remove",
+    "padding": "Padding",
+    "background2": "Background",
+    "rounding": "Rounding",
+    "circle": "Circle",
+    "square": "Square"
+  },
+  "actions": {
+    "downloadPng": "PNG",
+    "downloadSvg": "SVG",
+    "copy": "Copy",
+    "copied": "Copied",
+    "print": "Print",
+    "share": "Share"
+  },
+  "footer": {
+    "description": "Free and open source QR code generator.",
+    "instantGeneration": "Instant generation",
+    "downloadFormats": "SVG & PNG download",
+    "qrTypes": "QR Types",
+    "github": "GitHub"
+  },
+  "notFound": {
+    "title": "The page you are looking for could not be found.",
+    "home": "Back to Home",
+    "createQr": "Create QR Code",
+    "quickStart": "or quick start"
+  },
+  "forms": {
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "+1 555 123 4567"
+    },
+    "email": {
+      "to": "To",
+      "toPlaceholder": "example@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Email subject",
+      "body": "Message",
+      "bodyPlaceholder": "Email content..."
+    },
+    "sms": {
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 555 123 4567",
+      "message": "Message",
+      "messagePlaceholder": "Your message..."
+    },
+    "text": {
+      "label": "Text",
+      "placeholder": "Enter text to be placed in QR code..."
+    },
+    "vcard": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 555 123 4567",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "company": "Company",
+      "companyPlaceholder": "Company Name"
+    },
+    "wifi": {
+      "ssid": "Network Name (SSID)",
+      "ssidPlaceholder": "MyNetwork",
+      "encryption": "Encryption",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "hiddenNetwork": "Hidden network",
+      "noPassword": "No password"
+    },
+    "location": {
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "latitudePlaceholder": "41.0082",
+      "longitudePlaceholder": "28.9784"
+    },
+    "appstore": {
+      "iosLabel": "iOS App Store Link",
+      "iosPlaceholder": "https://apps.apple.com/app/id123456789",
+      "androidLabel": "Android Play Store Link",
+      "androidPlaceholder": "https://play.google.com/store/apps/details?id=com.example",
+      "hint": "At least one platform link is required. If both are provided, iOS link will be used."
+    }
+  },
+  "pwa": {
+    "installTitle": "Add to Home Screen",
+    "installDesc": "Install as app for quick access",
+    "installButton": "Install",
+    "iosInstructions": "Tap the share button in Safari:",
+    "iosStep1": "Tap the share icon below",
+    "iosStep2": "Select 'Add to Home Screen'",
+    "desktopAppTitle": "Open as App",
+    "desktopAppDesc": "Install as desktop app for better experience",
+    "desktopAppInstructions": "To install as app in Chrome:",
+    "desktopAppStep1": "Click the three-dot menu in the top right",
+    "desktopAppStep2": "Select 'Install QR Generator'",
+    "desktopAppStep3": "Click 'Install' button",
+    "desktopAppShortcut": "shortcut"
+  },
+  "batch": {
+    "title": "Bulk QR Generation",
+    "subtitle": "(one URL per line)",
+    "placeholder": "https://example.com\nhttps://google.com\nhttps://github.com",
+    "generate": "Generate All",
+    "generating": "Generating...",
+    "count": "{valid}/{total} QR codes generated",
+    "downloadZip": "Download ZIP",
+    "download": "Download"
+  },
+  "validation": {
+    "urlEmpty": "URL cannot be empty.",
+    "urlInvalid": "Enter a valid URL. (example.com)",
+    "ssidEmpty": "Network name (SSID) cannot be empty.",
+    "nameRequired": "First name or last name is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "phoneInvalid": "Enter a valid phone number.",
+    "emailEmpty": "Recipient email address cannot be empty.",
+    "phoneEmpty": "Phone number cannot be empty.",
+    "coordsEmpty": "Latitude and longitude cannot be empty.",
+    "latInvalid": "Latitude must be between -90 and 90.",
+    "lngInvalid": "Longitude must be between -180 and 180.",
+    "platformRequired": "At least one platform link is required.",
+    "iosHttps": "iOS link must start with https://",
+    "androidHttps": "Android link must start with https://",
+    "textEmpty": "Text cannot be empty.",
+    "invalidType": "Invalid QR type."
+  }
+}

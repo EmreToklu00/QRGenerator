@@ -1,0 +1,49 @@
+{
+  "name": "qr-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modern, feature-rich, and fully customizable QR code generator built with Next.js 16",
+  "author": "Emre Toklu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmreToklu00/QRGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmreToklu00/QRGenerator/issues"
+  },
+  "homepage": "https://github.com/EmreToklu00/QRGenerator#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "analyze": "ANALYZE=true npm run build",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\""
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.577.0",
+    "next": "16.2.1",
+    "next-intl": "^4.8.3",
+    "qrcode": "^1.5.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-swipeable": "^7.0.2"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^16.2.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
